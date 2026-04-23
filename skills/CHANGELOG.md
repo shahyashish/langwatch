@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/langwatch/langwatch/compare/skills@v0.4.0...skills@v0.4.1) (2026-04-23)
+
+
+### Bug Fixes
+
+* **skills-publish:** stop sync.sh nuking target repo's .git ([#3425](https://github.com/langwatch/langwatch/issues/3425)) ([72fef44](https://github.com/langwatch/langwatch/commit/72fef447db36d2a820a315d2818df9d6ec381512))
+
 ## [0.4.0](https://github.com/langwatch/langwatch/compare/skills@v0.3.0...skills@v0.4.0) (2026-04-23)
 
 
