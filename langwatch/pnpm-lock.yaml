@@ -539,8 +539,8 @@ importers:
         specifier: ^1.6.9
         version: 1.6.9
       stripe:
-        specifier: ^15.12.0
-        version: 15.12.0
+        specifier: ^22.0.2
+        version: 22.0.2(@types/node@18.19.130)
       superjson:
         specifier: ^1.13.3
         version: 1.13.3
@@ -12488,9 +12488,14 @@ packages:
   strip-literal@3.1.0:
     resolution: {integrity: sha512-8r3mkIM/2+PpjHoOtiAW8Rg3jJLHaV7xPwG+YRGrv6FP0wwk/toTpATxWYOW0BKdWwl82VT2tFYi5DlROa0Mxg==}
 
-  stripe@15.12.0:
-    resolution: {integrity: sha512-slTbYS1WhRJXVB8YXU8fgHizkUrM9KJyrw4Dd8pLEwzKHYyQTIE46EePC2MVbSDZdE24o1GdNtzmJV4PrPpmJA==}
-    engines: {node: '>=12.*'}
+  stripe@22.0.2:
+    resolution: {integrity: sha512-2/BLrQ3oB1zlNfeL/LfHFjTGx6EQn0j+ztrrTJHuDjV5VVIpk92oSDaxyKLUr3pG3dnee2LZqhFUv2Bf0G1/3g==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@types/node': '>=18'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
 
   strnum@2.1.2:
     resolution: {integrity: sha512-l63NF9y/cLROq/yqKXSLtcMeeyOfnSQlfMSlzFt/K73oIaD8DGaQWd7Z34X9GPiKqP5rbSh84Hl4bOlLcjiSrQ==}
@@ -29040,10 +29045,9 @@ snapshots:
     dependencies:
       js-tokens: 9.0.1
 
-  stripe@15.12.0:
-    dependencies:
-      '@types/node': 20.19.27
-      qs: 6.15.1
+  stripe@22.0.2(@types/node@18.19.130):
+    optionalDependencies:
+      '@types/node': 18.19.130
 
   strnum@2.1.2: {}
 
