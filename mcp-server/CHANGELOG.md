@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.7.1](https://github.com/langwatch/langwatch/compare/mcp-server@v0.7.0...mcp-server@v0.7.1) (2026-04-23)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @anthropic-ai/claude-code from 2.1.72 to 2.1.76 in /mcp-server ([#2365](https://github.com/langwatch/langwatch/issues/2365)) ([6ade0cc](https://github.com/langwatch/langwatch/commit/6ade0ccb96bf646b2a3fa4ecbb4243632713d1a0))
+* **deps-dev:** bump @anthropic-ai/claude-code in /mcp-server ([6ade0cc](https://github.com/langwatch/langwatch/commit/6ade0ccb96bf646b2a3fa4ecbb4243632713d1a0))
+* **deps-dev:** bump @langwatch/scenario from 0.4.6 to 0.4.8 in /mcp-server ([#2367](https://github.com/langwatch/langwatch/issues/2367)) ([587a366](https://github.com/langwatch/langwatch/commit/587a3667921a961e77f1e568e9a303efb60be023))
+* **deps-dev:** bump @langwatch/scenario in /mcp-server ([587a366](https://github.com/langwatch/langwatch/commit/587a3667921a961e77f1e568e9a303efb60be023))
+* **deps-dev:** bump eslint from 8.57.1 to 10.0.3 in /mcp-server ([#2097](https://github.com/langwatch/langwatch/issues/2097)) ([d0c78a4](https://github.com/langwatch/langwatch/commit/d0c78a45bd42f61284e8836c84764b3970be9099))
+* **deps:** bump @opentelemetry/sdk-node from 0.204.0 to 0.213.0 in /mcp-server ([#2088](https://github.com/langwatch/langwatch/issues/2088)) ([06019b7](https://github.com/langwatch/langwatch/commit/06019b78947d4b15212d9d5a353a471e2faf3531))
+* **deps:** bump @opentelemetry/sdk-node in /mcp-server ([06019b7](https://github.com/langwatch/langwatch/commit/06019b78947d4b15212d9d5a353a471e2faf3531))
+* **deps:** bump hono ([3c32c62](https://github.com/langwatch/langwatch/commit/3c32c62798a6311bdb458dda99e617c63d7be907))
+* **deps:** bump hono from 4.12.5 to 4.12.7 in /mcp-server in the npm_and_yarn group across 1 directory ([#2235](https://github.com/langwatch/langwatch/issues/2235)) ([3c32c62](https://github.com/langwatch/langwatch/commit/3c32c62798a6311bdb458dda99e617c63d7be907))
+* **deps:** bump langsmith from 0.7.1 to 0.7.31 in /mcp-server ([#3281](https://github.com/langwatch/langwatch/issues/3281)) ([60877d8](https://github.com/langwatch/langwatch/commit/60877d831c805c0f41ac8a7e6d84128fe80da238))
+* **deps:** bump the npm_and_yarn group across 1 directory with 5 updates ([#3410](https://github.com/langwatch/langwatch/issues/3410)) ([2d29949](https://github.com/langwatch/langwatch/commit/2d29949b5693359ffdc20351d761aa2d1db9c659))
+
 ## [0.7.0](https://github.com/langwatch/langwatch/compare/mcp-server@v0.6.1...mcp-server@v0.7.0) (2026-04-16)
 
 
