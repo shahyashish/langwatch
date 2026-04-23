@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.2.0](https://github.com/langwatch/langwatch/compare/langwatch@v3.1.0...langwatch@v3.2.0) (2026-04-23)
+
+
+### Features
+
+* error boundaries and custom 404 page ([#3379](https://github.com/langwatch/langwatch/issues/3379)) ([cb3b660](https://github.com/langwatch/langwatch/commit/cb3b6604e04b54810b1b9a73183e083557b183ab))
+* **scenarios:** load project secrets for code and workflow agents ([5f393cf](https://github.com/langwatch/langwatch/commit/5f393cf92e6beb355a424c4b0a6e29d83fddb7a2))
+* **scenarios:** project secrets for code/workflow agents + better dataset 400 ([#3414](https://github.com/langwatch/langwatch/issues/3414)) ([5f393cf](https://github.com/langwatch/langwatch/commit/5f393cf92e6beb355a424c4b0a6e29d83fddb7a2))
+* **scenarios:** workflow agent input/output mapping layer ([#3201](https://github.com/langwatch/langwatch/issues/3201)) ([#3334](https://github.com/langwatch/langwatch/issues/3334)) ([aef8e64](https://github.com/langwatch/langwatch/commit/aef8e646088ef5988ca5ee3f3560a06b45b0454b))
+
+
+### Bug Fixes
+
+* **analytics:** rescue 4 broken dashboard widgets in arrayJoin groupBy path ([#3418](https://github.com/langwatch/langwatch/issues/3418)) ([6839f45](https://github.com/langwatch/langwatch/commit/6839f45f5ef052e1c0f298e8413f289b4dd75927))
+* **scenarios:** hydrate llm params for fresh workflow agent runs ([#3277](https://github.com/langwatch/langwatch/issues/3277)) ([f788f27](https://github.com/langwatch/langwatch/commit/f788f27634c8e0aae3a052bf6f76ef0843412cb9))
+* **skills-publish:** stop sync.sh nuking target repo's .git ([#3425](https://github.com/langwatch/langwatch/issues/3425)) ([72fef44](https://github.com/langwatch/langwatch/commit/72fef447db36d2a820a315d2818df9d6ec381512))
+* **studio:** support chat_messages signature inputs + preserve multi-turn history ([#3415](https://github.com/langwatch/langwatch/issues/3415)) ([#3416](https://github.com/langwatch/langwatch/issues/3416)) ([cb76144](https://github.com/langwatch/langwatch/commit/cb76144a67460082b7bb2318b13aad55924f1a8f))
+* surface execute_sync Error events instead of generic fallback ([#3275](https://github.com/langwatch/langwatch/issues/3275)) ([e7edb37](https://github.com/langwatch/langwatch/commit/e7edb3766c163a1a7d7a39b928df5f4db0b97f89))
+* **traces:** parse JSON-string langwatch.input when extracting primary I/O ([#3419](https://github.com/langwatch/langwatch/issues/3419)) ([1e87641](https://github.com/langwatch/langwatch/commit/1e87641060b872d9f924e1a583328f33590bd3ca))
+* **traces:** query RoleBinding instead of TeamUser for trace redaction ([#3424](https://github.com/langwatch/langwatch/issues/3424)) ([ed2d32c](https://github.com/langwatch/langwatch/commit/ed2d32c88516ea65165b3b57b944cbccdf8ce3f2))
+* use RoleBinding for team memberships in updateMemberRole ([#3387](https://github.com/langwatch/langwatch/issues/3387)) ([c0fc120](https://github.com/langwatch/langwatch/commit/c0fc12001aac786a37898aaecb42432f88b25a5e))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump faiss-cpu from 1.12.0 to 1.13.2 in /python-sdk ([#2096](https://github.com/langwatch/langwatch/issues/2096)) ([636ac8d](https://github.com/langwatch/langwatch/commit/636ac8dcff63fe89836d8d7bf0762885601f4e21))
+* **deps:** bump @opentelemetry/sdk-trace-web from 2.0.1 to 2.6.0 in /langwatch ([#2370](https://github.com/langwatch/langwatch/issues/2370)) ([6716569](https://github.com/langwatch/langwatch/commit/6716569fc515ac023cd6d9469fd0d7ca998a997e))
+* **deps:** bump @opentelemetry/sdk-trace-web in /langwatch ([6716569](https://github.com/langwatch/langwatch/commit/6716569fc515ac023cd6d9469fd0d7ca998a997e))
+* **deps:** bump @opentelemetry/semantic-conventions from 1.36.0 to 1.40.0 in /langwatch ([#2112](https://github.com/langwatch/langwatch/issues/2112)) ([fc28f40](https://github.com/langwatch/langwatch/commit/fc28f40e2842f8037288f04c1b1cb77b15c42dd8))
+* **deps:** bump @opentelemetry/semantic-conventions in /langwatch ([fc28f40](https://github.com/langwatch/langwatch/commit/fc28f40e2842f8037288f04c1b1cb77b15c42dd8))
+* **deps:** bump opentelemetry-api from 1.36.0 to 1.40.0 in /python-sdk ([#2090](https://github.com/langwatch/langwatch/issues/2090)) ([9d6bbc3](https://github.com/langwatch/langwatch/commit/9d6bbc37a933ac1842ba25632fffd4dae511d442))
+* **deps:** bump opentelemetry-instrumentation-crewai from 0.47.5 to 0.53.0 in /python-sdk ([#2094](https://github.com/langwatch/langwatch/issues/2094)) ([44dc407](https://github.com/langwatch/langwatch/commit/44dc40742f4ed78040b831a22db31368846676d6))
+* **deps:** bump opentelemetry-instrumentation-crewai in /python-sdk ([44dc407](https://github.com/langwatch/langwatch/commit/44dc40742f4ed78040b831a22db31368846676d6))
+* **deps:** bump orjson ([7dfc44b](https://github.com/langwatch/langwatch/commit/7dfc44bb6c9c550c1b367e069e6573d9cdaa9b2e))
+* **deps:** bump orjson from 3.11.4 to 3.11.5 in /langwatch_nlp in the uv group across 1 directory ([#2001](https://github.com/langwatch/langwatch/issues/2001)) ([7dfc44b](https://github.com/langwatch/langwatch/commit/7dfc44bb6c9c550c1b367e069e6573d9cdaa9b2e))
+* **deps:** bump the npm_and_yarn group across 4 directories with 6 updates ([#3401](https://github.com/langwatch/langwatch/issues/3401)) ([63d21c7](https://github.com/langwatch/langwatch/commit/63d21c734d47dc629db6d3228d39976acf8b06cf))
+* **deps:** bump the npm_and_yarn group across 7 directories with 8 updates ([#3286](https://github.com/langwatch/langwatch/issues/3286)) ([6939c5c](https://github.com/langwatch/langwatch/commit/6939c5cce6112b132a82f0c3105e86aab6568f45))
+* **main:** release skills 0.4.0 ([#3312](https://github.com/langwatch/langwatch/issues/3312)) ([91ef361](https://github.com/langwatch/langwatch/commit/91ef3618d31c4507d426006a147219bf212e096d))
+
 ## [3.1.0](https://github.com/langwatch/langwatch/compare/langwatch@v3.0.0...langwatch@v3.1.0) (2026-04-22)
 
 
